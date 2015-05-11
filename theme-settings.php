@@ -7,7 +7,7 @@
  * @param $form_state
  *   A keyed array containing the current state of the form.
  */
-function unitedway2015_form_system_theme_settings_alter(&$form, &$form_state, $form_id = NULL)  {
+function open_way_2015_form_system_theme_settings_alter(&$form, &$form_state, $form_id = NULL)  {
   // Work-around for a core bug affecting admin themes. See issue #943212.
   if (isset($form_id)) {
     return;
@@ -16,10 +16,10 @@ function unitedway2015_form_system_theme_settings_alter(&$form, &$form_state, $f
   // Create the form using Forms API: http://api.drupal.org/api/7
 
   /* -- Delete this line if you want to use this setting
-  $form['unitedway2015_example'] = array(
+  $form['open_way_2015_example'] = array(
     '#type'          => 'checkbox',
-    '#title'         => t('unitedway2015 sample setting'),
-    '#default_value' => theme_get_setting('unitedway2015_example'),
+    '#title'         => t('open_way_2015 sample setting'),
+    '#default_value' => theme_get_setting('open_way_2015_example'),
     '#description'   => t("This option doesn't do anything; it's just an example."),
   );
   // */

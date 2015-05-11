@@ -1,7 +1,11 @@
+@media only screen and (max-width: 900px){
+	.focus-areas .focus-area-education,.focus-areas  .focus-area-income,.focus-areas  .focus-area-health, #focus-area-education, #focus-area-income, #focus-area-health {
+  float: none;
+padding: 0 1%;
+  width: 100%;
+}
 
-
-@media min-width 960px {
-	.front .sidebar-second .region-sidebar-second
+.front .sidebar-second .region-sidebar-second
 	{
 		float:left;
 		margin-left:70%;
@@ -14,10 +18,56 @@
 		margin-right:-65%;
 		width:65%;
 	}
+	
+	.focus-areas .focus-area-education,.focus-areas  .focus-area-income,.focus-areas  .focus-area-health, #focus-area-education, #focus-area-income, #focus-area-health {
+  float: none;
+padding: 0 1%;
+  width: 100%;
+}
+	
+	nav#main-menu {
+  display: none;
 }
 
-@media max-width 800px {
-	div.masthead-txt-main
+.front .header #secondary-menu {
+  top: 0px;
+}
+
+.region-bottom .bottom-address {
+  width: 70%;
+  margin-left: 10%;
+}
+
+.view-ow-display-box-menu div.views-row
+{
+  float: none;
+  height: auto;
+  min-height: 350px;
+  width: 100%;
+}
+
+div#navigation {
+  display: none;
+}
+
+.header__region.region.region-header {
+  display: none;
+}
+	
+not-front .header__logo-image {
+  width: 100%;
+  position: relative;
+  top: -50px;
+  margin-left: 1%;
+}
+
+.not-front .header #secondary-menu
+{
+  width: 55%;
+}	
+
+
+div.masthead-txt-main
 	{
 		display:none;
 		font-size:30px;
@@ -28,12 +78,13 @@
 	{
 		display:none;
 	}
-	
+	/*
 	.welcome-masthead
 	{
 		background-size:725px auto;
 		height:315px;
 	}
+	 */
 	
 	div.masthead-txt-box
 	{
@@ -96,6 +147,7 @@
 	{
 		left:0;
 		top:0;
+		background:none;
 	}
 	
 	#logo
@@ -113,21 +165,224 @@
 	{
 		display:none;
 	}
-	}
 	
 	
+	#secondary-menu .last {
+  background-image: none;
+  }
+
+
+.front #main-menu ul.links
+{
+top: -60px;
+}
+
+.front #main-menu ul.links.inline
+{
+
+line-height: 35px;
+}
+
+.front #main-menu ul.links.inline
+{
+min-width: 750px;
+}
+
+.swiper-container, .swiper-slide {
+height: 450px;
+}
+
+.large-3
+
+{
+
+width: 45%;
+}
+
+
+.swiper-container, .swiper-slide {
+width: 100%;
+height: 450px;
+}
+
+.front #main-menu a {
+font-size: 21px;
+}
+
+
+nav#main-menu {
+position: fixed !important;
+top: 0px !important;
+}
+
+.front #main-menu a {
+font-size: 19px;
+}
+
+.front .header #logo
+{
+top: 320px;
+}
+
+
+
+.front .header #secondary-menu
+{
+top: 85px;
+}
+
+div.masthead-small-text
+{
+display:none;
+}
+/*
+.masthead-image {
+  min-height: 40vh;
+  height: 40vh
+}
+*/
+
+.front #header {
+  height: 40vh;
+  }
+  
+  div#block-nice-menus-1 
+  {
+display: none;}
+ 
+
+.front #header 
+{
+margin-bottom: 50px;
+}
+
+#block-boxes-ow-social-media-buttons-box {
+    float: left;
+    height: 115px;
+    margin-left: 0;
+    width: 100%;
+}
+.gav-box{
+
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+#main #content, .sidebar {
+  margin-top: -0px;
+}
+
+.fixed-logo {
+position: fixed !important;
+top: 0px !important;
+left: 0px !important;
+}
+
+.header #secondary-menu .last a {
+  color: red;
+  text-shadow: none;
+}
+.header #secondary-menu a
+{
+  font-size: 14px;
+}
+
+#secondary-menu .last a {
+  margin-left: 0px;
+}
+
+nav#secondary-menu {
+  margin-right: 0%;
+}
+
+div#block-nice-menus-1
+{
+  bottom: auto;
+  left: auto;
+}
+
+nav#secondary-menu {
+  display: none;
+}
+
+
+.sidebar-second .region-sidebar-second {
+  /* float: right; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin: 2%;
+}
+
+
+.sidebar-second #content
+{
+
+  width: 100%;
+
+}
+
+aside.sidebars {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f5f5f5;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.front #logo img {
+  display: block;
+}
+.front a img.header__logo-image {
+  display: none;
+  visibility: visible;
+  width: auto;
+}
+
+.front .header #logo {
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+.gav-boxes {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.gav-box {
+  margin: 0% 0% 20px;
+}
+
+.mobile-only {
+  visibility: visible;
+}
+
+.location.vcard {
+  float: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.node-ow-volunteer-opportunity  .gmap-map {
+  display: none;
+}
+}
+
+
+
+
 /* iPhone / mobile webkit */
+
+
+
+/*
 @media screen and (max-device-width: 480px) {
 .masthead-image
-{
-width: 750px;
-height: 400px;
-background-size: 750px 400px;; 
-min-width: 100%;
-background-attachment: scroll;
-width: 750px;
-height: 400px;
-}
 
 nav#main-menu {
 position: fixed !important;
@@ -153,10 +408,73 @@ div.masthead-small-text
 display:none;
 }
 
+.mobile-only {
+  visibility: visible;
+}
+
 }
 
 
 
+
+
+
+@media only screen 
+and (min-width : 750px)
+{
+
+div#page {
+margin-top: 60px;
+}
+
+
+.header__region.region.region-header {
+position: relative;
+top: -115px;
+}
+
+.front #main-menu {
+background-color: #649cd3;
+float: none;
+height: 60px;
+left: 0;
+padding-bottom: 20px;
+padding-left: 0;
+padding-top: 25px;
+right: 0;
+top: auto;
+width: 100%;
+z-index: 100;
+position: relative;
+left: 0px;
+top: -60px;
+width: 750px;
+}
+
+.masthead-small-text-outer {
+display: none;
+}
+
+.not-front .header #logo {
+top: 15px;
+}
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+.fixed-logo {
+position: fixed !important;
+top: 0px !important;
+left: 0px !important;
+}
+}
+
+@media screen (max-width: 800px) {
+.header #secondary-menu {
+ 
+  display: none;
+}
+}
 @media only screen 
 and (max-width : 999px)
 {
@@ -239,23 +557,41 @@ margin-bottom: 50px;
 
 }
 
+@media screen and (max-device-width: 480px) {
+.masthead-image
+{
+width: 750px;
+height: 400px;
+background-size: 750px 400px;; 
+min-width: 100%;
+background-attachment: scroll;
+width: 750px;
+height: 400px;
+}
 
-@media screen and (min-width: 200px) and (max-width: 850px) {
-.fixed-logo {
+nav#main-menu {
 position: fixed !important;
 top: 0px !important;
-left: 0px !important;
-}
 }
 
-@media only screen and (max-width: 999px)
-.masthead-image {
-  top: 0px;
+.front #main-menu a {
+font-size: 19px;
 }
 
-
-@media only screen and (max-width: 999px)
-.front .header #secondary-menu {
-  top: 0px;
+.front .header #logo
+{
+top: 335px;
 }
 
+.front .header #secondary-menu
+{
+top: 85px;
+}
+
+div.masthead-small-text
+{
+display:none;
+}
+
+}
+*/
