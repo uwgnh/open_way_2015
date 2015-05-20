@@ -4,7 +4,13 @@
 padding: 0 1%;
   width: 100%;
 }
-
+.focus-areas {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  
 .front .sidebar-second .region-sidebar-second
 	{
 		float:left;
@@ -50,7 +56,7 @@ div#navigation {
   display: none;
 }
 
-.header__region.region.region-header {
+.header__region.region.region-header .block-nice-menus {
   display: none;
 }
 	
@@ -66,13 +72,14 @@ not-front .header__logo-image {
   width: 55%;
 }	
 
-
+/*
 div.masthead-txt-main
 	{
 		display:none;
 		font-size:30px;
 		line-height:55px;
 	}
+	*/
 	
 	div.masthead-txt-secondary
 	{
@@ -333,6 +340,9 @@ aside.sidebars {
 
 .front #logo img {
   display: block;
+    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .front a img.header__logo-image {
   display: none;
@@ -347,11 +357,26 @@ aside.sidebars {
   width: 100%;
 }
 
+.front .header #logo {
+  background: url(../../../../default/files/UWGNH-logo-web-home_1.png) no-repeat top center;
+  background-size: contain;
+  height: auto;
+  left: 8%;
+  margin-top: 0px;
+  padding: 0px;
+  position: relative;
+  top: 0px;
+  width: auto;
+  z-index: 100;
+  margin-bottom: 5px;
+}
+
 
 
 .gav-boxes {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 400px;
 }
 
 .gav-box {
@@ -371,6 +396,59 @@ aside.sidebars {
 .node-ow-volunteer-opportunity  .gmap-map {
   display: none;
 }
+
+.front div#main {
+  margin-top: 140px;
+}
+
+.masthead-image {
+  background-size: contain;
+  min-height: 32%;
+  background-color: white;
+  margin-top: 75px;
+
+}
+
+
+.masthead-image:before
+{
+  background: none;
+}
+
+/*
+.masthead-image-inside {
+  background: url(http://www.uwgnh.org/sites/default/files/masthead-2.jpg) no-repeat top center;
+  background-size: contain;
+  min-height: 100%;
+  min-height: 100%;
+   min-height: 100%;
+
+  z-index: 0;
+  width: 100%;
+}
+ */
+  
+  .region-header {
+  margin-bottom: 0em;
+}
+
+.not-front .header #logo {
+	margin-bottom:0px;
+	position:relative;
+	top:0px;
+	z-index:100; 
+}
+
+.not-front a#logo {
+  margin-top: 40px;
+}
+
+.view-ow-display-box-menu {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 }
 
 
